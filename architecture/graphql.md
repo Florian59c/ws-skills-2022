@@ -2,34 +2,33 @@
 
 > ❌ A travailler
 
-> ✔️ Auto validation par l'étudiant
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la différence entre REST et GraphQL ❌ / ✔️
-- les besoins auxquels répond GraphQL ❌ / ✔️
-- la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
-- Subscription ❌ / ✔️
+- la différence entre REST et GraphQL ✔️
+- les besoins auxquels répond GraphQL ✔️
+- la définition d'un schéma ❌
+- Query ❌
+- Mutation ❌
+- Subscription ❌
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ❌
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ❌
 
 [lien github](...)
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ❌
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -42,9 +41,11 @@ Description :
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ✔️
 
 Description:
+
+Trop récent. J'ai besoin de plus d'entrainement et de revoir les slides et les videos des cours afin de comprendre plus en détails comment ça fonctionne et comment le mettre en place.
 
 Plan d'action : (à valider par le formateur)
 
@@ -56,5 +57,5 @@ Résolution :
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
+- J'ai ecrit un [tutoriel](...) ❌
+- J'ai fait une [présentation](...) ❌ 
