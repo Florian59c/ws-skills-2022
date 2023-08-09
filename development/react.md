@@ -10,7 +10,7 @@
 - les composants enfants et les _props_ qu'on leur passe ✔️
 - le déclenchement d'instructions en fonction des actions de l'utilisateur ✔️
 - le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props ✔️
-- l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant
+- l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant ❌
 - l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ✔️
 
 ## 💻 J'utilise
@@ -89,24 +89,26 @@ Description : Mon port-folio
 
 ### Utilisation en environement professionnel ❌
 
-Description : utilisation d'angular
+Description : utilisation d'angular en milieu professionnel
 
 ## 🌐 J'utilise des ressources
 
 ### Titre
 
-- lien
-- description
+https://react.dev/reference/react
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌
+### Point de blocage ✔️
 
 Description:
 
+J'ai encore des difficultés à comprendre ce qu'est le reduceur et à utiliser le hook "useReducer".
+
 Plan d'action : (à valider par le formateur)
 
-- action 1 ❌ / ✔️
+- revoir un exemple concret de son utilisation (comment on l'utilise / dans quel cas ...) ❌ / ✔️
+
 - action 2 ❌ / ✔️
 - ...
 

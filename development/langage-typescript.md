@@ -9,7 +9,7 @@
 - l'intéret de TypeScript dans l'IDE ✔️
 - les types de bases ✔️
 - comment et pourquoi étendre une interface ✔️
-- les classes et les decorators ❌
+- les classes et les decorators
 
 ## 💻 J'utilise
 
@@ -24,17 +24,33 @@ export default interface MemberUser {
     phone: string;
 }
 
-//fonction retournant une chaine de caractere
+// fonction retournant une chaine de caractere
 public function getPhone(): string
 {
     return this.phone
 }
 
-### Utilisation dans un projet ❌
+bout de code créer sur un projet perso : 
 
-[lien github](...)
+    // la mutation retourn un booleen
+    @Mutation(() => Boolean)
+    // l'argument userId est de type number et la fonction "deleteUser" retourne une promesse de booleen (promesse car la fonction est asynchrone)
+    async deleteUser(@Arg("userId") userId: number): Promise<Boolean> {
+        const result = await datasource.getRepository(User).delete(userId);
+        if (result.affected === 0) {
+            throw new ApolloError("L'utilisateur n'a pas été trouvé", "NOT_FOUND");
+        }
+        return true;
+    }
 
-Description :
+### Utilisation dans un projet ✔️
+
+https://github.com/Florian59c/Point-n-click
+
+Description : Jeu de type point-n-click
+
+Il y a peu de ts coté front au moment ou j'ai remplie se formulaire, donc je met le lien de copilote également : 
+https://github.com/WildCodeSchool/2211-wns-neumann-copilot
 
 ### Utilisation en production si applicable❌
 
@@ -58,8 +74,8 @@ le cours, les video de live coding et je pose des questions à mes collegues en 
 
 Description:
 
-j'ai encore du mal à typer mon code correctement
-Ma plus grande difficulté est de convertir du JS en TS !
+J'ai encore quelques difficultés un typer les arguments graphql (les inputType) et les states du 1er coup sans erreurs.
+Je pense que ça viendra avec un peu plus de pratique.
 
 Plan d'action : (à valider par le formateur)
 
